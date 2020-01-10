@@ -1,1 +1,13 @@
 // Mixins in here
+.bttn(@bgc, @font) {
+    background-color: @bgc;
+    border-radius: 15px;
+    font-size: @font;
+    text-decoration: none;
+    color: @main-bg;
+    padding: 8px 25px;
+
+    @media @mobile {
+        padding: 8px 120px;
+    }
+  }
